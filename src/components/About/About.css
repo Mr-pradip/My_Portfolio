@@ -1,0 +1,124 @@
+.about
+{
+  background: #2c2c2c;
+  text-align: end;
+  padding-top: 220px;
+}
+img.about__img
+{
+  border-radius: 10px;
+  width: 100%;
+}
+h1.about__heading
+{
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: right;
+  font-weight: Montserrat,sans-serif;
+  font-size: 60px;
+  color: white;
+}
+button.about.btn.pointer
+{
+  text-transform: capitalize;
+  width: 210px;
+  height: 55px;
+  font-size: 18px;
+  transition: 0.4s ease ;
+}
+.about__button
+{
+  padding: 50px 0px;
+  align-items: center;
+}
+.up__to__top__btn
+{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  background-color: #f90040;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.up__to__top__btn.active
+{
+  display: flex;
+}
+/* responsive */
+@media only screen and (max-width: 1024px){
+.p__color{
+  font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .p__color{
+    font-size: 10px;
+  }
+  button.about.btn.pointer
+  {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: 0.4s ease;
+  }
+  }
+  @media only screen and (max-width: 376px){
+    button.about.btn.pointer
+  {
+    text-transform: capitalize;
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    transition: 0.4s ease;
+  }
+  }
+  @media only screen and (max-width: 320px){
+    button.about.btn.pointer
+  {
+    text-transform: capitalize;
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+    transition: 0.4s ease;
+  }
+  }
+
+  @media only screen and (min-width: 426px)
+  {
+    .about2
+    {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 426px)
+  {
+    .about2
+    {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 426px)
+  {
+    .about1
+    {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 426px)
+  {
+    .about1
+    {
+      display: flex;
+    }
+  }

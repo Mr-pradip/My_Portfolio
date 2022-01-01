@@ -1,0 +1,114 @@
+.skills
+{
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.skills__heading
+{
+  font-size: 60px;
+  padding-bottom: 100px;
+}
+.skills__heading2
+{
+  text-align: left;
+}
+.skills__para
+{
+  color: white;
+  text-align: left;
+  padding: 30px 0;
+}
+.container button
+{
+  background: crimson;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex ;
+}
+.percent
+{
+  padding: 10px;
+}
+.percent h1
+{
+  text-align: left;
+}
+.percent h2
+{
+  text-align: right;
+  margin-top: -20px;
+}
+.percent div
+{
+  height: 5px;
+  width: 100%;
+  background-color: white;
+}
+.percent-1 div span
+{
+  height: 5px;
+  width: 90%;
+  background-color: crimson;
+}
+.percent-2 div span
+{
+  height: 5px;
+  width: 60%;
+  background-color: crimson;
+}
+.percent-3 div span
+{
+  height: 5px;
+  width: 50%;
+  background-color: crimson;
+}
+.percent-4 div span
+{
+  height: 5px;
+  width: 80%;
+  background-color: crimson;
+}
+.percent-5 div span
+{
+  height: 5px;
+  width: 40%;
+  background-color: crimson;
+}
+.percent-6 div span
+{
+  height: 5px;
+  width: 30%;
+  background-color: crimson;
+}
+
+@media only screen and (min-width: 426px)
+  {
+    .skill2
+    {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 426px)
+  {
+    .skill2
+    {
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 426px)
+  {
+    .skill1
+    {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 426px)
+  {
+    .skill1
+    {
+      display: flex;
+    }
+  }

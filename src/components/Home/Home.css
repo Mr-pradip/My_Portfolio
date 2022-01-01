@@ -1,0 +1,109 @@
+.home__bg
+{
+  background-image: url(../Images/black.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li.nav__items
+{
+  font-size: 18px;
+  padding-bottom: 15px;
+  transition: 0.4s ease-in-out;
+  color: white;
+}
+.home__content
+{
+  padding: 200px 0px;
+}
+h1.home__text
+{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: rgba(198, 201, 216, 0.75) !important;
+}
+h2.home__text
+{
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 800;
+  font-family: Montseerrst,sans-serif;
+}
+h3.home__text
+{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Montseerrst,sans-serif;
+  line-height: 40px;
+}
+h4.home__text
+{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Montseerrst,sans-serif;
+  line-height: 40px;
+}
+.header
+{
+  transition: .4s all ease;
+}
+.header.active
+{
+  z-index: 1000;
+  width: 100%;
+  padding: 0px 30px;
+  background-color: #191919;
+  position:fixed;
+}
+.toogle__menu
+{
+  display: none;
+  justify-content: flex-end;
+  float: right;
+  z-index: 1000;
+  width: 100%;
+}
+ul.sidebar.d__flex
+{
+  margin-top: 50px;
+  flex-wrap: wrap;
+  height: 100%;
+  position: fixed;
+  right: 0%;
+  background: #010101;
+  width: 300px;
+  top: 0%;
+  flex-direction: column;
+}
+li.sideNavbar
+{
+  padding: 25px 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 426px)
+{
+  .header{
+    justify-content: space-between;
+  }
+  .navigation{
+    display: none;
+  }
+  .home__content
+  {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 426px)
+{
+  h2.home__text.pz__10, h3.home__text.pz__10, h4.home__text.pz__10
+  {
+    font-size: 32px;
+  }
+  .toogle__menu
+  {
+    display: flex;
+  }
+}
